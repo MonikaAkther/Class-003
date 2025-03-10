@@ -1,0 +1,205 @@
+<htm>
+    <head>
+        <title>Html form tags</title>
+    </head>
+    <body>
+        <form>
+            <fieldset> 
+                <legend> Student's Application Form</legend>
+                <label for="fristname">Enter your  Name:</label><br>
+            <input type="text" id="fristname" size="35" placeholder=" Applicant's Full Name"><br><br>
+
+            <label for="mothername" >Mother Name:</label><br>
+            <input type="text" id="mothername" size="35" placeholder=" Mother Name"><br><br>
+
+            <label for="fathername"> Father Name :</label><br>
+            <input type="text" id="fathername" size="35" placeholder="Father Name"><br><br>
+            
+            <label for="mobile number">Mobile Number:</label><br>
+            <input type="number" id="mobile number" size="35" placeholder="+880"><br><br>
+
+            <label for="subjects"> Choose your Subjects:</label><br>
+            
+            <input type="radio" id="subjects" name="subjects">
+            <label for="Science">Science</label><br>
+            <input type="radio" id="subjects" name="subjects">
+            <label for="Commerce">Commerce</label><br>
+            <input type="radio" id="subjects" name="subjects">
+            <label for="Humanities">Humanities </label><br>
+
+             <label for="password">Enter your password:</label>
+            <br>
+            <input type="password" id="password" size="35">
+            <br><br> 
+
+            <input type="submit" value="Submit your details">
+           </fieldset>
+        </form>
+        
+        <br> <br> <br> <br> 
+        <h1> Student's Resistation Form </h1><hr>
+        <form>
+            <fieldset>
+                <legend> Please Enter Your Relevant information </legend>
+                <label for="district">District(<small> Institute District:where you to do your course</small>)*</label><br>
+                <select id="district">
+                    <option value="" disabled selected >----Select one-----</option>
+                    <option value="">Dhaka</option>
+                    <option value="">Chattogram</option>
+                    <option value="">Rajshahi</option>
+                    <option value="">Syhelt</option>
+            
+                </select>
+                <br>
+                <label for="course">Course*</label><br>
+                <select id="course" >
+                    <option disabled selected >--select one--</option>
+                    <option>Front End Development</option>
+                    <option>Back End Development</option>
+                    <option>Full Stack Development</option>
+                </select><br>
+                <label for="student name">Student Name*</label><br>
+                <input type="text" id="student name"><br>
+                <label for="father name">Father Name*</label><br>
+                <input type="text" id="father name" ><br>
+                <label for="mother name">Mother Name*</label><br>
+                <input type="text" id="mother name">
+                <br>
+                <fieldset>
+                    <legend> Date of Birth :</legend>
+                    <label for="day"> Day </label>
+                    <select id="day"> 
+                        <option disable selected>select one</option>
+                        <option>Saturday</option>
+                        <option>sunday</option>
+                        <option>Monday</option>
+                        <option>Thusday</option>
+                        <option>Wenesday</option>
+                        <option>Thesday</option>
+                        <option>Friday</option>
+                    </select>
+                    <label for ="month">Month</label>
+                    <select id="month">
+                        <option disabled selected>select one</option>
+                        <option>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>may</option>
+                        <option>june</option>
+                        <option>July</option>
+                        <option>Augest</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option> November</option>
+                        <option>December</option>
+                    </select>
+                    <label for ="Year">Year</label>
+                    <select id="Year">
+                        <option disabled selected>select one</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option> 2008</option>
+                        <option>2009</option>
+                        <option> 2010</option>
+                        <option>2011</option>
+                    </select>
+
+                </fieldset>
+                <label for="gender">Gender*</label>
+                <input type="radio" id="male"   name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female"   name="gender">
+                <label for="female"> Female</label>
+                <input type="radio" id="others"   name="gender">
+                <label for="others">Others</label><br>
+                <lebal for="physically handicapped"> Physically Handicapped*</lebal>
+                <input type="radio" id="yes" name="physicallyhandicapped" >
+                <lebal for="yes">Yes</lebal>
+                <input type="radio" id="no"  name="physicallyhandicapped" >
+                <lebal for="no">No</lebal><br>
+                <lebal for="email" >Email*</lebal><br>
+                <input type="email" id="email"><br>
+                <lebal>e.g:example@gmail.com</lebal><br>
+                <lebal for="phone" >Phone Number<small>(Must be 11 digits)*</small></lebal><br>
+                <input type="Number" id="phone"><br>
+                <lebal> <small>e.g 01891797645</small></lebal><br>
+                <lebal>Identification Type</lebal><br>
+                <select>
+                    <option disabled selected > select one </option>
+                    <option> NID</option>
+                    <option> Smart Cart</option>
+                    <option> Birth Certificate </option>
+                </select><br>
+                <label for="homedistrict"> Home District*</label><br>
+                <select id="homedistrict">
+                    <option disabled selected> ---select one---</option>
+                    <option> Dhaka</option>
+                    <option> Barishal</option>
+                    <option> Dinajpur</option>
+                    <option> Nokhali</option>
+                    <option> Rangpur</option>
+                    <option> Pabna</option>
+
+                </select><br>
+                <label for="upzilla">Upzilla*</label><br>
+                <select id="upzilla">
+                    <option disabled selected> ---select one---</option>
+                    <option> Dhaka</option>
+                    <option> Barishal</option>
+                    <option> Dinajpur</option>
+                    <option> Nokhali</option>
+                    <option> Rangpur</option>
+                    <option> Pabna</option>
+                    </select>
+                    <br>
+                    <label for="shortaddress">Village/HOuse No/Road No/Other (Alternative)</label><br>
+                    <input type="text" id="shortaddress">
+                    <br>
+                    <label for="post office"> Post Office*</label><br>
+                    <input type="text" id="post office">
+                    <br>
+                    <label for="edu"> Educational Qualification*<bold><small>(higher level)</small></bold></label><br>
+                    <select id="edu">
+                        <option diabled selected> select one</option>
+                        <option> S.S.C</option>
+                        <option> H.S.C</option>
+                        <option> Honours</option>
+                        <option> Masters</option>
+                    </select><br>
+                <label for="">
+                    Have you any computer
+                </label><br>
+                <input type="radio" id="yes1" name="computer">
+                <label for="yes1">Yes</label>
+                <input type="radio" id="No1" name="computer">
+                <label for="No1">No</label><br>
+                <label>
+                    Photograph*
+                </label><br>
+                <input type="file" active="/.png">
+                <br>
+                <label><small> ( File type must be .jpg .jpeg .png . Maximum file size 2 Mb</small> </label><br>
+
+                <label>
+                    Signature*
+                </label><br>
+                <input type="file" active="">
+                <br>
+                <label><small> ( File type must be .jpg .jpeg .png . Maximum file size 2 Mb</small> </label> <br>
+              <button type="submit">Submit your data </button>
+            </fieldset>
+            
+        </form>
+    
+
+
+              
+    </body>
+</htm>
